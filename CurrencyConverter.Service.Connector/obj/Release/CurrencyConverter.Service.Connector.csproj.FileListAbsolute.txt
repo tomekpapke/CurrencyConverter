@@ -1,0 +1,5 @@
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service.Connector\bin\Release\CurrencyConverter.Service.Connector.dll.config
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service.Connector\bin\Release\CurrencyConverter.Service.Connector.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service.Connector\bin\Release\CurrencyConverter.Service.Connector.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service.Connector\obj\Release\CurrencyConverter.Service.Connector.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service.Connector\obj\Release\CurrencyConverter.Service.Connector.pdb

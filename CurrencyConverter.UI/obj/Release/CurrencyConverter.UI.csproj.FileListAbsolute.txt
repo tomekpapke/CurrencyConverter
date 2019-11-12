@@ -1,0 +1,17 @@
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Client\CurrencyConverter.UI.exe.config
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Client\CurrencyConverter.UI.exe
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Client\CurrencyConverter.UI.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.csprojAssemblyReference.cache
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\MainWindow.g.cs
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\App.g.cs
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI_MarkupCompile.cache
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI_MarkupCompile.lref
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\App.baml
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\MainWindow.baml
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.g.resources
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.Properties.Resources.resources
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.csproj.GenerateResource.cache
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.csproj.CopyComplete
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.exe
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.UI\obj\Release\CurrencyConverter.UI.pdb

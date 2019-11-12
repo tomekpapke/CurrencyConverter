@@ -1,0 +1,8 @@
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\bin\Release\CurrencyConverter.Service.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\bin\Release\CurrencyConverter.Service.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\bin\Release\CurrencyConverter.Common.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\bin\Release\CurrencyConverter.Common.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\obj\Release\CurrencyConverter.Service.csprojAssemblyReference.cache
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\obj\Release\CurrencyConverter.Service.csproj.CopyComplete
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\obj\Release\CurrencyConverter.Service.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Service\obj\Release\CurrencyConverter.Service.pdb

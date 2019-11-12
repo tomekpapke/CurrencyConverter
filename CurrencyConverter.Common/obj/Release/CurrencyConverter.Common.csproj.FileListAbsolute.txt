@@ -1,0 +1,4 @@
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Common\bin\Release\CurrencyConverter.Common.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Common\bin\Release\CurrencyConverter.Common.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Common\obj\Release\CurrencyConverter.Common.dll
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.Common\obj\Release\CurrencyConverter.Common.pdb

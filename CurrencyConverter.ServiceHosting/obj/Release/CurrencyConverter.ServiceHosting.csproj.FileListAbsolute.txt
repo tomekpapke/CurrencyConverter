@@ -1,0 +1,7 @@
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Server\CurrencyConverter.ServiceHosting.exe.config
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Server\CurrencyConverter.ServiceHosting.exe
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\Build\Server\CurrencyConverter.ServiceHosting.pdb
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.ServiceHosting\obj\Release\CurrencyConverter.ServiceHosting.csprojAssemblyReference.cache
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.ServiceHosting\obj\Release\CurrencyConverter.ServiceHosting.csproj.CopyComplete
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.ServiceHosting\obj\Release\CurrencyConverter.ServiceHosting.exe
+C:\Users\Komputer Tomka\source\repos\CurrencyConverter\CurrencyConverter.ServiceHosting\obj\Release\CurrencyConverter.ServiceHosting.pdb

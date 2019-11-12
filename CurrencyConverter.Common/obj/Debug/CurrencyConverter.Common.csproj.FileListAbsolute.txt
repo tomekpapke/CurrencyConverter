@@ -1,0 +1,4 @@
+C:\Users\Komputer Tomka\source\repos\VM.Converter.UI\CurrencyConverter.Common\bin\Debug\CurrencyConverter.Common.dll
+C:\Users\Komputer Tomka\source\repos\VM.Converter.UI\CurrencyConverter.Common\bin\Debug\CurrencyConverter.Common.pdb
+C:\Users\Komputer Tomka\source\repos\VM.Converter.UI\CurrencyConverter.Common\obj\Debug\CurrencyConverter.Common.dll
+C:\Users\Komputer Tomka\source\repos\VM.Converter.UI\CurrencyConverter.Common\obj\Debug\CurrencyConverter.Common.pdb
