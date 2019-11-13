@@ -4,14 +4,13 @@ namespace CurrencyConverter.UI.Providers
 {
     public class CurrencyServiceProvider : ICurrencyServiceProvider
     {
-        private readonly ICurrencyServiceConnector connector;
-        public CurrencyServiceProvider(ICurrencyServiceConnector connector) 
+        private readonly string SERVICE_ENDPOINT = "net.tcp://localhost:8090/CurrencyService";
+        public string GetCurrencyWordValue(decimal value) 
         {
-            this.connector = connector;
-        }
-        public string GetCurrencyWordValue(decimal value)
-        {
-            return connector.GetCurrencyWordValue(value);
+            using (var proxy = new CurrencyServiceConnector(SERVICE_ENDPOINT)) 
+            {
+                return proxy.GetCurrencyWordValue(value);
+            }
         }
     }
 }

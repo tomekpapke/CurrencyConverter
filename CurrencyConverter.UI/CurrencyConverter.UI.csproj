@@ -74,7 +74,7 @@
     <Compile Include="Providers\ICurrencyServiceProvider.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -85,11 +85,10 @@
     <Compile Include="Async\AsyncCommand.cs" />
     <Compile Include="Async\AsyncCommandBase.cs" />
     <Compile Include="Async\IAsyncCommand.cs" />
-    <Compile Include="Async\NotifyTaskCompletion.cs" />
     <Compile Include="Converters\InvertBooleanConverter.cs" />
     <Compile Include="Converters\MultiBooleanToReadonlyConverter.cs" />
     <Compile Include="Converters\NullToVisibilityConverter.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -121,9 +120,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CurrencyConverter.Common\CurrencyConverter.Common.csproj">
       <Project>{BA2DEE89-AB90-4267-983D-C1250A7B4786}</Project>

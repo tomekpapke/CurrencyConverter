@@ -41,8 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\Numbers.cs" />
     <Compile Include="Literature\StringComposer.cs" />
-    <Compile Include="Messages\Validation.cs" />
+    <Compile Include="Constants\Validation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

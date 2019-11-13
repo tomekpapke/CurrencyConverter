@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\CurrencyConverterService\Reference.cs">
+    <Compile Include="Connected Services\CurrencyService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -51,34 +51,35 @@
     <Compile Include="CurrencyServiceConnector.cs" />
     <Compile Include="ICurrencyServiceConnector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaseProxyService.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Connected Services\CurrencyConverterService\CurrencyConverterService.wsdl" />
-    <None Include="Connected Services\CurrencyConverterService\item.xsd">
+    <None Include="Connected Services\CurrencyService\CurrencyService.wsdl" />
+    <None Include="Connected Services\CurrencyService\item.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\CurrencyConverterService\item1.xsd">
+    <None Include="Connected Services\CurrencyService\item1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\CurrencyConverterService\" />
+    <WCFMetadataStorage Include="Connected Services\CurrencyService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CurrencyConverterService\item.disco" />
+    <None Include="Connected Services\CurrencyService\item.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CurrencyConverterService\configuration91.svcinfo" />
+    <None Include="Connected Services\CurrencyService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CurrencyConverterService\configuration.svcinfo" />
+    <None Include="Connected Services\CurrencyService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CurrencyConverterService\Reference.svcmap">
+    <None Include="Connected Services\CurrencyService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

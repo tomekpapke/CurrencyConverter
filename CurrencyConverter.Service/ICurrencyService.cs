@@ -3,7 +3,7 @@
 namespace CurrencyConverter.Service
 {
     [ServiceContract]
-    public interface ICurrencyConverterService
+    public interface ICurrencyService
     {
         [OperationContract]
         string GetCurrencyWordValue(decimal currency);

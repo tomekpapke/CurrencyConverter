@@ -81,7 +81,8 @@
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Width="300" Height="100" TextWrapping="Wrap"  Text="{Binding CurrencyWordValue}" FontSize="18"></TextBlock>
+            <TextBox Width="300" Height="100" Background="Transparent"
+         BorderThickness="0" TextWrapping="Wrap" IsReadOnly="True" Text="{Binding CurrencyWordValue}" FontSize="18"></TextBox>
         </StackPanel>
     </Grid>
 </Window>

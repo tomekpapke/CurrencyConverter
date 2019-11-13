@@ -35,7 +35,7 @@ namespace CurrencyConverter.Tests
         [InlineData(1.029, "one dollar and two cents")]
         public void ConvertCurrencyToWordsTests(double value, string expected)
         {
-            CurrencyConverterService ccs = new CurrencyConverterService();
+            CurrencyService ccs = new CurrencyService();
             string result = ccs.GetCurrencyWordValue((decimal)value);
             Assert.Equal(expected, result);
         }

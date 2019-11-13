@@ -1,7 +1,6 @@
 using CurrencyConverter.Common.Messages;
 using CurrencyConverter.UI.Async;
 using CurrencyConverter.UI.Providers;
-using GalaSoft.MvvmLight;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,7 +13,9 @@ namespace CurrencyConverter.UI.ViewModel
     public class MainViewModel : INotifyPropertyChanged, INotifyDataErrorInfo
     {
         private readonly ICurrencyServiceProvider _provider;
-
+        private string currencyWordValue;
+        private bool canExecute;
+        private string currencyNumericValue;
         public MainViewModel(ICurrencyServiceProvider provider)
         {
             _provider = provider;
@@ -47,7 +48,7 @@ namespace CurrencyConverter.UI.ViewModel
 
         public IAsyncCommand GetCurrencyWordValueCommand { get; private set; }
 
-        private string currencyWordValue;
+        
         public string CurrencyWordValue 
         {
             get => currencyWordValue; 
@@ -57,6 +58,7 @@ namespace CurrencyConverter.UI.ViewModel
                 OnPropertyChanged(nameof(CurrencyWordValue));
             }
         }
+
         public bool IsValid
         {
             get
@@ -64,8 +66,7 @@ namespace CurrencyConverter.UI.ViewModel
                 return (Errors[nameof(CurrencyNumericValue)].Count == 0);
             }
         }
-
-        private bool canExecute;
+ 
         public bool CanExecute
         {
             get => canExecute;
@@ -76,7 +77,6 @@ namespace CurrencyConverter.UI.ViewModel
             }
         }
 
-        private string currencyNumericValue;
         public string CurrencyNumericValue
         {
             get => currencyNumericValue;

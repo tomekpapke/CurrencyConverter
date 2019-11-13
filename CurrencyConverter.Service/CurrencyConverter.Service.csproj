@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrencyConverterService.cs" />
-    <Compile Include="CurrencyWordValueBuilder.cs" />
-    <Compile Include="ICurrencyConverterService.cs" />
+    <Compile Include="CurrencyService.cs" />
+    <Compile Include="CurrencyWordValueComposer.cs" />
+    <Compile Include="ICurrencyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

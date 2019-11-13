@@ -1,17 +1,17 @@
-﻿using CurrencyConverter.Service.Connector.CurrencyConverterService;
+﻿using CurrencyConverter.Service.Connector.CurrencyService;
 using System.ServiceModel;
 
 namespace CurrencyConverter.Service.Connector
 {
-    public class CurrencyServiceConnector : ICurrencyServiceConnector
+    public class CurrencyServiceConnector : BaseProxyService<ICurrencyService>, ICurrencyServiceConnector
     {
+        public CurrencyServiceConnector(string serviceEndpoint) : base(serviceEndpoint)
+        {
+        }
+
         public string GetCurrencyWordValue(decimal value)
         {
-            NetTcpBinding binding = new NetTcpBinding();
-            EndpointAddress address = new EndpointAddress("net.tcp://localhost:8090/CurrencyConverterService");
-
-            CurrencyConverterServiceClient service = new CurrencyConverterServiceClient(binding, address);
-            return service.GetCurrencyWordValue(value);           
+            return Channel.GetCurrencyWordValue(value);
         }
     }
 }
