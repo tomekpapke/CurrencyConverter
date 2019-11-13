@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CurrencyConverter.Common.Constants
+﻿namespace CurrencyConverter.Common.Constants
 {
     public static class Numbers
     {
@@ -40,7 +34,7 @@ namespace CurrencyConverter.Common.Constants
             "nineteen",
             "twenty",
             "thirty",
-            "fourty",
+            "forty",
             "fifty",
             "sixty",
             "seventy",

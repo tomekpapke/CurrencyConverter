@@ -12,6 +12,7 @@ namespace CurrencyConverter.UI.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged, INotifyDataErrorInfo
     {
+        private const decimal MAX_CURRENCY_VALUE = 999999999.99m;
         private readonly ICurrencyServiceProvider _provider;
         private string currencyWordValue;
         private bool canExecute;
@@ -150,7 +151,7 @@ namespace CurrencyConverter.UI.ViewModel
                 errors.Add(Validation.ILLEGAL_CHARACTER_MESSAGE);
             }
 
-            if (value > 999999999m)
+            if (value > MAX_CURRENCY_VALUE)
             {
                 errors.Add(Validation.OUT_OF_RANGE_MESSAGE);
             }

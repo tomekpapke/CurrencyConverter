@@ -1,5 +1,4 @@
 ﻿using CurrencyConverter.Service.Connector.CurrencyService;
-using System.ServiceModel;
 
 namespace CurrencyConverter.Service.Connector
 {

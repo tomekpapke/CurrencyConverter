@@ -95,7 +95,7 @@ namespace CurrencyConverter.Service
 
         public CurrencyWordValueComposer ComposeIntegerExpression()
         {
-            if (currency == 0)
+            if ((int)currency == 0)
             {
                 sb.Append(ZERO).Append(" ");
                 return this;
